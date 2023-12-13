@@ -1,0 +1,148 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.adjustion{
+    margin-top: 130px;
+}
+
+.header_search{
+    width:550px !important;
+    text-indent:35px;
+}
+
+.search_btn{
+    position:absolute;
+    left: 6em;
+    top: 7.5em;
+}
+
+.updatebutton {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    -webkit-user-select: none;
+    vertical-align: baseline;
+    width: auto;
+    float: right;
+}
+
+.updatebutton:hover,
+.updatebutton:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.updatebutton:hover {
+    transform: translateY(-1px);
+}
+
+.updatebutton:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.prodTable{
+    width: 100%;
+    border-collapse:collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: whitesmoke;
+}
+
+.prodTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.action{
+    float:right;
+}
+
+.action>button{
+    font: bold 16px black;
+    background: lightgray;
+    border-radius: 20%;
+    border: none;
+    height:40px;
+    width:100%;
+}
+
+.prodTable th,
+.prodTable td {
+    padding: 12px 15px;
+}
+
+.prodTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.prodTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.prodTable tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.id{
+    width: 23%;
+}
+
+.selection{
+    border: none;
+    border-radius: 10%;
+    width: 50%;
+    height: 50px;
+    font: bold 16px black;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red{
+    background: red;
+    box-shadow: 0 0 2px 2px lightcoral;
+}
+
+.green{
+    background: green;
+    box-shadow: 0 0 2px 2px lightgreen;
+}
+
+.yellow{
+    background: yellow;
+    box-shadow: 0 0 2px 2px lightyellow;
+}
+
+.statusOrder {
+    float: right;
+}

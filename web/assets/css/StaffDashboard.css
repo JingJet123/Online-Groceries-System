@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2022, 3:33:17 PM
+    Author     : User
+*/
+
+body {
+    background: #f1f5f9;
+    min-height: 600px;
+}
+
+section{
+    margin-top: 85px;
+    padding: 2rem 1.5rem;
+    height: 90px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-single {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+.card-single:hover {
+    /*background: #CEFBE3;*/
+    background: #4CAC81;
+    color: white;
+}
+
+.card-single:hover div:last-child span {
+    color: #fff;
+}
+
+.card-single div:last-child span {
+    font-size: 3rem;
+    color: #4CAC81;
+}
+
+.card-single div:first-child span {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.card {
+    background: #fff;
+}
+
+main{
+    margin-top: 185px;
+    padding: 2rem 1.5rem;
+}
+
+.order {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.order-status {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+
+.order-status:hover, .order-status:hover div:last-child span {
+    background: #4CAC81;
+    color: #fff;
+}
+
+.order-status div:last-child span {
+    font-size: 3rem;
+    color: #4CAC81;
+}
+
+.order-status div:first-child span {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.order {
+    background: #fff;
+}
+
+.order-status:first-child, .order-status:first-child div span, .order-status:first-child div:last-child span {
+    background: #ff3131;
+    color:white;
+}
+
+
+/* ============================================================== 
+     # Scrollbar
+=================================================================== */
+/* Works on Firefox */
+body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #2defaf #2defaf;   /* scroll thumb and track */ 
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #2defaf #2defaf;
+}
+
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #e2dede;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2defaf;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #e2dede;  /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #e2dede;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2defaf;
+    border-radius: 20px;
+    border: 3px solid #e2dede;
+}
+
+nav.topPage-bc {
+    margin-top: 20px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    nav.topPage-bc {
+        margin-top: 0px !important;
+    }
+}

@@ -1,0 +1,142 @@
+
+
+.rating i {
+    color: #ffc107;
+}
+
+.product-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img > img {
+    max-width: 70%;
+}
+
+.product-img-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.product-row {
+    padding: 45px 0;
+}
+
+.product-info > * ~ * {
+    margin-top: 25px;
+}
+
+.product-info-detail-title {
+    font-weight: 600;
+    color: gray;
+}
+
+.product-description {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.product-info-price {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.box-header {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.product-detail-description {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.product-detail-description-content {
+    text-align: justify;
+    line-height: 26px;
+    font-size: 16px;
+    height: 600px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.product-detail-description-content.active {
+    height: max-content;
+}
+
+.review-section{
+    background-color: #d6e5f3;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.user-rate {
+    background-color: #c7c7ed;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.staff-rate {
+    background-color: #a2a2ff;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.user-info, .staff-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.user-avt{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.arrow-avt{
+    /* height: 50px; */
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+    max-width: 10%;
+}
+
+.staff-avt{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+
+.user-name, .staff-name {
+    margin-left: 20px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.user-rate-content {
+    line-height: 25px;
+}

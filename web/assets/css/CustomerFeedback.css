@@ -1,0 +1,31 @@
+.feedbackform {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 4000px;
+}
+
+.fb-btn {
+    margin-top: 5%;
+    width: 400px;
+    float: right;
+}
+.btn-primary {
+    background: #267326;
+    box-shadow: none;
+    border: none
+}
+
+.btn-primary:hover {
+    background: #267326
+}
+
+.btn-primary:focus {
+    background: #267326;
+    box-shadow: none
+}
+
+.btn-primary:active {
+    background: #267326;
+    box-shadow: none
+}

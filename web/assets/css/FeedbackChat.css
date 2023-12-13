@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2022, 10:24:42 PM
+    Author     : User
+*/
+
+body {
+    background: #f1f5f9;
+}
+
+.topPage-bc {
+    margin-top: 20px !important;
+}
+
+.card{
+    margin-left: 30%;
+    margin-top: 8%;
+    width: 950px;
+}
+
+table thead tr th{
+    text-align:left;
+}
+
+.avatar {
+    color: #fff;
+    display: inline-flex;
+    align-items: right;
+    justify-content: right;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    height: 48px;
+    width: 48px;
+    transition: all .2s ease-in-out;
+    margin-top:30%;
+    margin-left:1800%;
+}
+
+.feedback-container{
+    margin-left:2%;
+}
+
+
+.avatar img {
+    width: 50%;
+}
+
+.avatar-sm {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 0.875rem;
+}
+
+.customer-name{
+    margin-left:60%;
+    padding-left:10px;
+    font-size:15px;
+    left: 80%
+}
+
+.feedback-message{
+    padding-left:10px;
+    padding-right:10px;
+    width:625px;
+    font-size: 15px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-left:20%;
+}
+
+.avatars{
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    height: 48px;
+    width: 48px;
+    transition: all .2s ease-in-out;
+    margin-left:0%;
+    margin-top:30%;
+}
+
+.avatars img {
+    width: 100%;
+    margin-left: -10%
+}
+
+.avatars-sm {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 0.875rem;
+}
+
+.reply-container{
+    margin-left:2%;
+}
+
+.staff-name{
+    padding-left:10px;
+    font-size:15px;
+    margin-left:1%;
+}
+
+.reply-message{
+    padding-left:5px;
+    padding-right:20px;
+    width:800px;
+    font-size: 15px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-right:90%;
+}

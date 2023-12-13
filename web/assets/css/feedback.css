@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2022, 12:55:28 AM
+    Author     : User
+*/
+
+body {
+    background: #f1f5f9;
+}
+
+table tr td .delete-button{
+    float:right;
+    background: #FF4742;
+    font-size: 15px;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    height:50px;
+    width:150px; 
+}
+
+table tr td .delete-button:hover{
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.sort-btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none !important;
+    background-color: #b9e8db;
+    color: #46a395;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 0.3rem rgb(80 151 204 / 25%) !important;
+}
+
+.sort-btn:active,
+.sort-btn:focus {
+    box-shadow: 0 0 0 0.125rem rgb(96 139 202 / 50%);
+    border: none;
+}
+
+.sort-btn.active {
+    box-shadow: 0 0 0 0.125rem rgb(96 139 202 / 50%);
+}
+
+.drop-wrapper {
+    position: relative;
+    margin-left:5%;
+    margin-top:10%;
+}
+
+.sort-menu {
+    display: none;
+    position: absolute;
+    width: 179px;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.sort-menu.active {
+    display: block;
+}
+
+.dropdown {
+    top: 100%;
+    margin-top: 0.125rem;
+}
+
+.sort-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #464141;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: 0.5s ease-in-out;
+    font-family: inherit;
+}
+
+.sort-menu a:hover {
+    background-color: #eff8ff;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+
+.sort-menu a i{
+    color:#FFD700;
+}
+
+/*Style the table*/
+table{
+    border: 3px solid #008F7A;
+    font-size:30px;
+    position: relative;
+    margin-top:70px;
+    margin-left:5%;
+    width:90%;
+}
+
+table tr th{
+    text-decoration: underline;
+    padding:5px 20px 10px 20px;
+}
+
+table tr td{
+    padding:10px 10px 10px 10px;
+}
+
+table tr td .replyButton{
+    margin-left:45%;
+    margin-top:1%;
+    background-color: #36A9AE;
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    border: 1px solid #2A8387;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    line-height: 100%;
+    outline: 0;
+    padding: 11px 15px 12px;
+    text-align: center;
+    height:50px;
+    width:150px;
+
+table tr td .replyButton:hover{
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+    text-decoration: none;
+}
+
+/*.overlay {
+    height: 0%;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 250px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.2);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    background: none; 
+    position: relative;
+    top: 25%;
+    width: 80%;
+    text-align: left;
+    margin: 10%;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 100px;
+    right: 95px;
+    font-size: 60px;
+    color: black;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+ Detail  
+.detailTable{
+    width: 100%;
+    border-collapse:collapse;
+    margin: 25px 0;
+    font-size: 1.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background: whitesmoke;
+}
+
+.detailTable th,
+.detailTable td {
+    padding: 12px 15px;
+}
+
+.detailTable tr td .replyButton{
+    font-size: 15px;
+    background-color: white;
+    border-radius:12px;
+    color: black;
+    margin-left:1300px;
+    border:2px solid #4CAF50;
+    height:50px;
+    width:100px;
+}
+
+.detailTable tr td .replyButton:hover{
+    background-color: #00C9A7;
+    color: white;
+}*/

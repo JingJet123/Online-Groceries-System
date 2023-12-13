@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 4, 2022, 8:22:57 PM
+    Author     : User
+*/
+
+body {
+    background: #f1f5f9;
+    min-height: 600px;
+}
+
+.header_search{
+    width:550px !important;
+    text-indent:35px;
+    height:30px;
+}
+
+input{
+    box-shadox:inherit;
+    min-height:50px;
+    margin-top:10%;
+    margin-left:14%;
+}
+
+.search_btn{
+    position:absolute;
+    left:31.5%;
+    top:16.5%;
+}
+
+.maintainButton{
+    font-size: 15px;
+    background-color: white;
+    border-radius:12px;
+    color: black;
+    margin-left:450%;
+    margin-top:150%;
+    border:2px solid #4CAF50;
+    height:50px;
+    width:100px;
+}
+
+.maintainButton:hover{
+    background-color: #00C9A7;
+    color: white;
+}
+
+.searchProduct-container{
+    border:3px solid black;
+    margin-left:5%;
+    margin-top:2%;
+    width:90%;
+}
+
+.searchProduct-container tr th,
+.searchProduct-container tr td{
+    border:1px solid black;
+    margin-left:2%;
+    text-align:center;
+}
+
+.searchProduct-container tr{
+    padding:5% 5% 5% 5%;
+}
+
+.back-button{
+    margin-left:88%;
+    margin-top: 2%;
+    padding: 0.6rem 1rem;
+    background: #3cb815;
+    color: white;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 160px;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.back-button:hover{
+    background-color: #5EC2AB;
+}
+
+/*.backButton{
+    padding: 0.6rem 1rem;
+    background: #3cb815;
+    color: white;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 160px;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top:150%;
+}
+
+.bx{
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}*/
+/*.backButton:hover{
+    background-color: #00C9A7;
+    color: white;
+}*/
+
+

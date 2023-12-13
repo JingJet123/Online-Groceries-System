@@ -1,0 +1,115 @@
+/* 
+    Created on : Mar 7, 2022, 1:40:37 AM
+    Author     : AG Grocery Market Team
+*/
+
+
+/* ============================================================== 
+     # Login 
+=================================================================== */
+/*.login-area, 
+.login-area div {
+    height: 100%;
+}
+.login-area div.login, 
+.login-area div.login div {
+    height: auto;
+}
+
+.login-area .login-box {
+    display: table;
+    width: 100%;
+}
+.login-area .login-box .login {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+}*/
+
+.login-area .login-box {
+      padding-top: 0; 
+      padding-bottom: 0;
+      height: auto;
+      width: 500px; 
+  }
+  
+  .login-area  {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  }
+
+.login-area .content {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 30px;
+    text-align: center;
+}
+.login-area .content img {
+  margin-top: 30px;  
+  margin-bottom: 30px;  
+  width: 80%;
+  height: 80%;
+}
+.login-area .content input {
+    border: 1px solid #e7e7e7;
+    box-shadow: inherit;
+    transition: all 0.5s ease;
+}
+
+.login-area .content input:focus, textarea:focus, select:focus {
+  border: 3px solid #a8d2ef;
+}
+
+.login-area .content button {
+    background: #4ac4f3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: inherit;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    padding: 8px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.login-area .content .register {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.login-area .content .register p {
+    margin-top: -15px;
+}
+
+.login-area .content .register a {
+    color: #4ac4f3;
+    margin-left: 5px;
+    transition: 0.5s ease-in-out;
+    font-weight: bolder;
+}
+
+.login-area .content .register a:hover {
+    color: #78a3c8;
+}
+
+.login-area .form-group {
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #77acd2 !important;
+    color: #4f5255 !important;
+}
+
+/*@media only screen and (max-width: 991px) {
+  .login-area  {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  }
+}*/

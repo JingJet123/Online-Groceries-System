@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2022, 10:55:35 PM
+    Author     : User
+*/
+
+
+.categ-heading.item-heading {
+    padding-top: 50px;
+}
+
+.shop {
+  margin-top: 2rem;
+  /*margin-bottom: 120px;*/
+}
+/* Shop Content */
+.shop-content {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto)) !important;
+    gap: 1.5rem;
+}
+
+.product-box {
+    position: relative;
+}
+
+.product-box:hover {
+    padding: 10px;
+    border: 2px solid #000;
+    transition: 0.4s;
+}
+
+.product-img {
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+    max-height: 200px;
+    margin: 0.5rem auto;
+    /*margin-bottom: 0.5rem;*/
+}
+
+.product-title {
+    font-size: 1.0rem !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2.2rem !important;
+    padding-left: 10px !important;
+    padding-right: 4px !important;
+}
+
+.price {
+    font-weight: 500;
+    padding-left: 10px !important;
+    padding-bottom: 2px;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+.product-box:hover .price {
+    padding: 10px !important;
+}

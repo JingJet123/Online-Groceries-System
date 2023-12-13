@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2022, 10:42:29 PM
+    Author     : hao11
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+html, body {
+    font-family: 'Oxygen Mono', monospace;
+}
+
+#chart_div {
+    display: flex;
+
+}
+.logoArea {
+    display: contents;
+}
+
+.logoImg {
+    max-height: 100px;
+}
+
+.card {
+    border: none;
+    text-align: center;
+}
+
+.report-header h2 {
+    margin-bottom: 5px;
+}
+
+.report-header h4 {
+    font-size: 1.2rem;
+}
+
+.report-header p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.chart-title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.report-table {
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.table-row {
+    background-color: #eeece1;
+    border: 3px solid black;
+}
+
+.day {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#star{
+    color:#FFD700;
+}
+
+@media (min-width: 992px) {
+    .col-lg-9 {
+        flex: 0 0 73.5%;
+        max-width: 73.5%;
+    }
+}

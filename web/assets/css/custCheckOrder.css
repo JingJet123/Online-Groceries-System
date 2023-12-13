@@ -1,0 +1,322 @@
+.btn-active {
+    background-color: #144631 !important;
+    color: white;
+}
+
+.status-btn {
+    background-color:#3f8cab;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 0.75rem;
+    padding: 0.75rem;
+    color: white !important;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.status-btn:hover {
+    background-color: #ffd64f;
+    color: white;
+}
+
+.action-btn {
+    background-color: #ffd64f;
+    margin: auto 2%;
+    padding: 10px;
+}
+
+.action-btn h4 {
+    margin-bottom: 0;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.card {
+    margin: 2% auto;
+    width: 100%;
+}
+
+
+.drop-zone {
+    max-width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 5px dashed #a0a1a1;
+    border-radius: 9px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone_text {
+    display: none;
+}
+
+.drop-zone_thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone_thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(37, 36, 36, 0.7);
+    transition: opacity 500ms;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    z-index: 100;
+}
+
+.popup-btn-wrapper {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-button {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+.popup-button span {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #545454;
+    text-align: center !important;
+    margin: 0 auto !important;
+    top: -15px;
+    left: -25px;
+}
+
+.popup-button span:before {
+    content: '';
+    background: #d0d0d0;
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    border: 7px solid #10462b;
+    box-sizing: border-box;
+    transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
+    box-shadow: 0 5px 25px rgb(0 0 0 / 14%), 0 2px 10px rgb(0 0 0 / 14%);
+}
+
+.popup-button:hover span:before {
+    transform: scale(0.8);
+    box-shadow: 0 6px 28px rgb(0 0 0 / 14%), 0 5px 15px rgb(0 0 0 / 14%);
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup-add {
+    padding: 30px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 20px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* height: 500px; */
+    overflow-x: hidden;
+}
+
+.popup-add h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.popup-add li {
+    background: green;
+}
+
+.popup-add .close-popup {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.popup-add .close-popup:hover {
+    color: #40bfac;
+}
+
+.popup-add .popup-content {
+    max-height: 100%;
+}
+
+.update-btn, .reset-btn, .view-detail-btn, .cancel-btn, .feedback-btn {
+    background: #10462b none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: inherit;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    padding: 8px;
+    margin: 10px 1.0rem;
+    text-transform: uppercase;
+    width: 20%;
+    transition: 0.5s ease-in-out;
+}
+
+.update-btn:hover {
+    background: #4bb3e4;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+
+.reset-btn {
+    background-color: #6c757d !important;
+}
+
+.view-detail-btn{
+    background-color: #f8d152 !important;
+}
+
+.reset-btn:hover {
+    background-color: #a4a6a8 !important;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+
+.view-detail-btn:hover {
+    background-color: #ff9028 !important;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+
+.cancel-btn{
+    background-color: #ff6666 !important;
+}
+
+.cancel-btn:hover {
+    background-color: #ff715e !important;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+.feedback-btn{
+    background-color: #6666ff !important;
+}
+.feedback-btn:hover {
+    background-color: #5edfff !important;
+    box-shadow: 4px 4px 3px 1px #6f6e6e;
+}
+
+
+.btn-row {
+    display: flex;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+.form-popup {
+    padding: 15px;
+}

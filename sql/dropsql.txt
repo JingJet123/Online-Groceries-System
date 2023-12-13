@@ -1,0 +1,17 @@
+DROP TABLE ShippingDetails;
+DROP TABLE Payment;
+DROP TABLE FeedbackReply;
+DROP TABLE Feedback;
+DROP TABLE CommentReply;
+DROP TABLE Comment;
+DROP TABLE PromotionItem;
+DROP TABLE OrderDetails;
+DROP TABLE Orders;
+DROP TABLE CartItem;
+DROP TABLE Cart;
+DROP TABLE Product;
+DROP TABLE SubCategory;
+DROP TABLE Category;
+DROP TABLE Customer;
+DROP TABLE Staff;
+

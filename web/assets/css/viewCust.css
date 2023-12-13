@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2022, 12:16:49 AM
+    Author     : hao11
+*/
+
+.avatar {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    height: 48px;
+    width: 48px;
+    transition: all .2s ease-in-out;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.avatar-sm {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 0.875rem;
+}
+
+.me-3 {
+    margin-right: 1rem !important;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.breadcrumb {
+    background: none;
+    margin-bottom: 0;
+}
+
+.opacity-85{
+    opacity: 0.85;
+}
+
+
+.table thead th {
+    padding: 0rem;
+}
+
+.sorting {
+    padding: 0.75rem 1.25rem;
+    border:none;
+    outline:none;
+    background:none;
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.sorting:hover {
+    text-decoration: none;
+}
+
+
+.sorting:before, .sorting:after {
+    position: absolute;
+    bottom: 0.9em;
+    display: block;
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.sorting:before {
+    right: 1em;
+    content: "↑";
+}
+
+.sorting:after {
+    right: 0.5em;
+    content: "↓";
+}
+
+.datePicker {
+    padding: 0.5rem 1rem;
+}
+
+.filterForm {
+    font-family: "JetBrains Mono",monospace;
+}
+
+.filterForm input[type="date"] {
+    height:30px;
+    width: 150px;
+    text-align: right;
+}
+
+.submitBtn {
+    margin-left: 15px;
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.submitBtn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.submitBtn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.submitBtn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.prodDeleted, .prodDeleted:hover  {
+    background: #ff3131 !important;
+    color: white !important;
+}
+
+.prodDeleted .text-secondary {
+    color: whitesmoke !important;
+}
+
+.remark {
+    color:#ffe5d4;
+    font-size: 13.5px;
+}
+
+.last-row, .last-row:hover {
+    background:  #eeece1 !important;
+}

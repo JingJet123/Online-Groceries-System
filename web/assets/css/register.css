@@ -1,0 +1,160 @@
+/* 
+    Created on : Mar 7, 2022, 1:40:37 AM
+    Author     : AG Grocery Market Team
+*/
+
+/* ============================================================== 
+     # Register 
+=================================================================== */
+/*.register-area, 
+.register-area div {
+    height: 100%;
+}
+.register-area div.register, 
+.register-area div.register div {
+    height: auto;
+}
+
+.register-area .register-box {
+    display: table;
+    width: 100%;
+}
+.register-area .register-box .register {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+}*/
+
+
+.register-area .register-box {
+    padding-top: 0; 
+    padding-bottom: 0;
+    height: auto;
+    width: 500px; 
+}
+
+.register-area  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.register-area .content {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 30px;
+    text-align: center;
+}
+.register-area .content img {
+    margin-top: -5px;  
+    margin-bottom: 22px;  
+    width: 74%;
+    height: 74%;
+}
+
+.register-area .content input {
+    border: 1px solid #e7e7e7;
+    box-shadow: inherit;
+    transition: all 0.5s ease;
+    margin-top: -7px !important;
+}
+
+.register-area .content input[type=checkbox] {
+    margin-top: -12px !important;
+}
+
+.register-area .content input:focus, textarea:focus, select:focus {
+    border: 3px solid #a8d2ef;
+}
+
+.register-area .content button {
+    background: #4ac4f3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: inherit;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 46%;
+    transition: all 0.6s ease-in-out;
+}
+
+.register-btn:hover {
+    background-color: #199eed !important;
+    color: #4f5255 !important;
+}
+
+.register-area .content button[type=reset] {
+    background-color: #6c757d;
+}
+
+.register-area .content button[type=reset]:hover {
+    background-color: #8c98a3 !important;
+    color: #ffffff !important;
+}
+
+.register-area .content .login {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.register-area .content .login p {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.register-area .content .login a {
+    color: #4ac4f3;
+    margin-left: 5px;
+    transition: 0.5s ease-in-out;
+    font-weight: bolder;
+}
+
+.register-area .content .login a:hover {
+    color: #78a3c8;
+}
+
+.register-area .form-group {
+    width: 100%;
+}
+
+
+/*@media only screen and (max-width: 991px) {
+  
+  .register-area  {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  }
+}*/
+
+.eye-icon {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+}
+
+#error-message {
+    display: none;
+    color: red;
+}
+
+.errorMsgArea {
+    text-align:left;   
+}
+
+#submitBtn:disabled, #submitBtn:disabled:hover {
+    background: darkgray !important;
+    color: white !important;
+}
+
+.pass-require {
+    font-size: 13px;
+    margin-left: 10px;
+}

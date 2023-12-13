@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot?j16cts');
+  src:  url('./fonts/icomoon.eot?j16cts#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?j16cts') format('truetype'),
+    url('./fonts/icomoon.woff?j16cts') format('woff'),
+    url('./fonts/icomoon.svg?j16cts#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cross-error:before {
+  content: "\e916";
+}
+.icon-arrow-down:before {
+  content: "\e904";
+}
+.icon-minus:before {
+  content: "\e91a";
+}
+.icon-plus:before {
+  content: "\e91b";
+}
+.icon-tick-success1:before {
+  content: "\e923";
+}
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-heart-outline:before {
+  content: "\e90e";
+}
+.icon-discord:before {
+  content: "\e900";
+}
+.icon-medium:before {
+  content: "\e901";
+}
+.icon-telegram:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-github:before {
+  /* content: "\ec99" */
+  content: "\eab0";
+  /* content: "\e624" */
+}

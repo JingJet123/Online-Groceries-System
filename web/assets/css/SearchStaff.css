@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2022, 1:52:59 AM
+    Author     : User
+*/
+body {
+    background: #f1f5f9;
+    min-height: 600px;
+}
+
+.header_search{
+    width:550px !important;
+    text-indent:35px;
+    height:30px;
+}
+
+input{
+    box-shadox:inherit;
+    min-height:50px;
+    margin-top:10%;
+    margin-left:14%;
+}
+
+.search_btn{
+    position:absolute;
+    left:31.5%;
+    top:16.5%;
+}
+
+.maintainButton{
+    font-size: 15px;
+    background-color: white;
+    border-radius:12px;
+    color: black;
+    margin-left:450%;
+    margin-top:150%;
+    border:2px solid #4CAF50;
+    height:50px;
+    width:100px;
+}
+
+.maintainButton:hover{
+    background-color: #00C9A7;
+    color: white;
+}
+
+.searchStaff-container{
+    border:3px solid black;
+    margin-left:5%;
+    margin-top:2%;
+    width:90%;
+}
+
+.searchStaff-container tr th,
+.searchStaff-container tr td{
+    border:1px solid black;
+    margin-left:2%;
+    text-align:center;
+}
+
+.searchStaff-container tr{
+    padding:5% 5% 5% 5%;
+    height:10%;
+}
+
+.back-button{
+    margin-left:88%;
+    margin-top: 2%;
+    padding: 0.6rem 1rem;
+    background: #3cb815;
+    color: white;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+    max-width: 160px;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.back-button:hover{
+    background-color: #5EC2AB;
+}
